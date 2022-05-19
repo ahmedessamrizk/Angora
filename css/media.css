@@ -1,0 +1,126 @@
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 560px) {
+    .contact h4{
+        font-size: 24px;
+    }
+    .footer-widgets .part
+    {
+        margin-bottom: 13px;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .head h1
+    {
+        font-size: 36px !important;
+    }
+    .navbar-nav
+    {
+        background-color: #fff !important;
+        width: 100%;
+    }
+    nav a
+    {
+        font-size: 13px;
+        font-weight: 600; 
+        color: black !important;
+        padding: 0px !important;
+    }
+    .div-contact
+    {
+        width: 100%;
+    }
+    .div-contact .content
+    {
+        justify-content: center !important;
+    }
+    .div-contact .content span
+    {
+        font-size: 24px;
+    }
+    .div-contact .left
+    {
+        width: 100% !important;
+    }
+    .div-contact button
+    {
+        margin-top: 10px;
+        font-size: 14px !important;
+    }
+    footer .icons
+    {
+        width: 100%;
+        margin-bottom: 15px;
+
+    }
+    footer .content
+    {
+        justify-content: center !important;
+        text-align: center;
+        
+    }
+    .gear
+    {
+        display: none !important;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .div-contact
+    {
+        width: 100%;
+    }
+    .div-contact .content
+    {
+        justify-content: center !important;
+    }
+    .div-contact .left
+    {
+        width: 100% !important;
+    }
+    nav .icons{
+        display: none !important;
+    }
+    .section-title p
+   {
+       width: 80% !important;
+   }
+   .client .content 
+    {
+        width: 80% !important;
+    
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+   /* .section-title p
+   {
+       width: 60% !important;
+   } */
+   .cli img
+{
+    width: 60px !important;
+    height: 60px !important;
+    margin-right: 15px !important;
+}
+.cli .box .active
+{
+    width: 100px !important;
+    height: 100px !important;
+}
+.cli .box p 
+{
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 0px !important;
+    margin-bottom: 0px !important;
+}
+.cli .box span 
+{
+    font-size: 10px;
+    
+}
+ }
